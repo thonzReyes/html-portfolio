@@ -3,58 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Curriculum Vitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet.css">
 </head>
 <body>
+    <div class="container">
+        <div class="name-title"> 
+            <p><span id="fullname">Tony Reyes</span> <br />
+                <span id="role">Senior Quality Assurance Engineer</span>
+            </p>
+        </div>
+        <div class="info">
+            <p>115 Goldcrest Way <br/>
+                Saint Augustine<br/>
+                32092<br/>
+                United States <br />
+                <span id="phone-number">+14075765097</span> <br />
+                <span id="email">reyes.thonz@gmail.com</span><br />
+                <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/thonreyes/">https://www.linkedin.com/in/thonreyes/</a>
+            </p>
+        </div>
+        <hr />
+        <div class="summary">
+            <p>
+                I'm a software test engineer with over a decade of experience in testing. My expertise lies in utilizing a range of testing tools, including but not limited to Selenium, Cypress, and RestAssured. Additionally, I possess exceptional collaborative and communication skills, enabling me to work effectively under pressure with minimal supervision.
+            </p>
+        </div>
 
-    <h1>Tony Reyes</h1>
-    <p>address: St. Augustine Florida, USA <br />
-        mobile: 14092349928
-    </p>
-    <hr />
-    <h2>Summary</h2>
-    <p>An ordinary person who wants to be a fullstack developer.<br />
-    Learning how to code in different programming languages is my activity during my free time.</p>
-    <hr />
-
-    <h2>Education</h2>
-    <p>
-        University: University of Cebu - Banilad Campus <br />
-        Degree: Bachelor of Science in Information Technology <br />
-        Year: 2005 - 2010
-    </p>
-    <hr >
-    <h2>Work Experience</h2>
-    <p>Quality Assurance Engineer - ABC Inc. <br />
-        Sept 2023 - Present
+        <div class="education">
+            <h3>Education</h3>
+            <p>
+                BACHELOR'S DEGREE in INFORMATION TECHNOLOGY<br />
+                UNIVERSITY OF CEBU, PHILIPPINES | June 2005 - March 2010<br />
+            </p>
+            <ul class="school-accomplishments">
+                <li>
+                    During my academic tenure, I actively participated in various school activities such as Java programming contest and emerged as the runner- up in Java programming at one of the school's events.
+                </li>
+            </ul>
+        </div>
+        <div class="skillset">
+            <h3>Key Skills</h3>
+            <h4>Automation tools</h4>
+            <ul id="tools">
+                <li>Cypress</li>
+                <li>Selenium WebDriver</li>
+                <li>Pytest</li>
+                <li>Postman</li>
+            </ul>
+            <h4>Prgramming Languages</h4>
+            <ul id="languages">
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>Typescript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>Snowflake</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h3>Professional Experience</h3>
+            <p>SOFTWARE QA ENGINEER <br/>
+                data ai | June 2021 - August 2023 <br />
+            </p>
+            <li>I oversee product and data quality throughout the entire product development process, from the initial feature design stage to the finished product. As a result of my contributions, there has been a significant decrease in support tickets by 54% over two quarters.</li>
+            <li>I developed an automation script to verify the connectivity of web-based data sources. The primary programming language utilized for this task was Python, with Selenium Webdriver serving as the primary automation tool.</li>
+            <li>Additionally, I upheld the maintenance of our current pytest framework, which is used for our daily health check and API automation testing.</li>
+            <li>I developed an automation script using the Cypress automation tool and Typescript for our API automation testing and other Web-Based Application.</li>
+            <li>Collaborated with the Front-End Development Team and DevOps personnel during the code merging process to ensure that the Cypress automation, which has regression and unit testing scripts, is functioning as anticipated prior to merging the recently developed code for each release or modification.</li>
+            <li>I monitored our functional test outcomes through Zephyr, which includes the creation of test cases and documentation of test plans.</li>
+            <li>I provided quality assurance support during our weekly rotation to address any production issues that may arise, and collaborated with the designated support development resources to troubleshoot the identified issue.</li>
         
-        <p>Role: Automating the boring manual testing stuff</p>
-    </p>
-    <p>
-        Quality Assurance Engineer - XYZ Inc. <br />
-        June 2021 - Sept 2023
-
-        <p>Role: Automating the manual of test cases</p>
-    </p>
-    <hr />
-
-    <h2>Skills</h2>
-    <p>Customer service: ⭐️⭐️⭐️⭐️⭐️ <br />
-        Microsoft Office Suite: ⭐️⭐️⭐️ <br />
-        Organizational skills: ⭐️⭐️⭐️⭐️ <br />
-    </p>
-
-    <h2>Awards and Certifications</h2>
-    <p>Employee of the year 2022 </p>
-    <hr />
-
-    <h3>Want to know more about me? Hit the link below!</h3>
-    <a href="./public/about.html">About Me</a> <br />
-    <a href="./public/contact.html">Contact Me</a>
-    <footer>
-        <p>© November 2023 Self Learning!!
-        </p>
-    </footer>
-    
+        </div>
+    </div>
+    <!-- End of container -->
 </body>
 </html>

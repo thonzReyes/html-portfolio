@@ -1,0 +1,40 @@
+body{
+    font-family: 'Sono', sans-serif;
+    background-color: #DDF2FD;
+}
+
+.container{
+    border: solid red;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+p, span{
+    margin: 0;
+    padding: 0;
+}
+
+
+.name-title{
+    flex: 0 0 500px;
+    border: solid;
+    text-align: justify;
+}
+
+.info{
+    border: solid blue;
+    flex: 0 0 500px;
+    text-align: right;
+}
+
+#fullname{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+
